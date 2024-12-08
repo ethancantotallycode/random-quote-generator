@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    border: border-box; 
+}
+.navbar {
+    height: 60px;
+    background-color: darkblue;    
+    color : white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#title {
+    font-size: 40px;
+    font-family: "Oswald";
+    margin-left: 10px;
+
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    font-size: 25px;
+    font-family: "Oswald";
+    margin-right: 15px;
+}
+
+.git-hub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+#git-id {
+    display: inline-flex;
+    font-size: 20px;
+
+}
+
+#git-image {
+    background-image: url("gitimage.png");
+    background-size: cover;
+    width: 20px; 
+    height: 20px;
+    display: inline-block;
+  }
+  

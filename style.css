@@ -4,14 +4,22 @@
 }
 .navbar {
     height: 60px;
-    background-color: darkblue;    
+    width: 100%;
+    background-color: #5F9EA0   ;    
     color : white;
     display: flex;
     justify-content: space-between;
 }
 
+.nav-shadow {
+    position: absolute;
+    background-color: black;
+    height: 5px;
+    width: 100%;
+}
 
 #title {
+    height: 60px;
     font-size: 40px;
     font-family: "Oswald";
     margin-left: 10px;
@@ -51,4 +59,74 @@ a {
     height: 20px;
     display: inline-block;
   }
+
+/*body */
+body {
+    background-image: url("pexels-padrinan-255379.jpg");
+    background-size: cover;
+}
+
+#main_text {
+    flex-wrap: wrap;
+    font-family: "Share Tech Mono";
+}
+
+#title-text {
+   text-align: center;
+   display: block;
+   font-size : 70px;
+   margin-top: 180px;
+   animation: popup 1.5s ease-out forwards;
+}
+
+#underline-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+
+#underline-main {
+    border-top: solid 5px black;
+    animation: underline 1s 1s ease-out forwards;
+}
+
+#title-desc {
+    text-align: center;
+    margin: 30px 0 40px 0;
+    font-size: 25px;
+    animation: popup 1s 1.7s ease-out forwards;
+    opacity: 0;
+}
+
+#title-instruction {    
+   font-size: 20px;
+   text-align: center;
+   animation: popup 1s 1.7s ease-out forwards;
+   opacity: 0;
+}
+
+@keyframes underline {
+    from { 
+        width: 0px;
+    }
+    to {
+        width: 900px;
+}
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      50% {
+        opacity: 0.5; 
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0); 
+      }
+    }
+
   

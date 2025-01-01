@@ -61,7 +61,7 @@ a {
 }
 
 #main_body {
-    background-image: url("pexels-padrinan-255379.jpg");
+    background-image: url("main.jpg");
 }
 
 .main_text {
@@ -242,7 +242,7 @@ button {
 } 
 
 #happy_body {
-    background-image: url("pexels-count-chris-44396569-8588945.jpg");
+    background-image: url("happy.jpg");
 }
 
 /*sad page*/
@@ -251,6 +251,6 @@ button {
 } 
 
 #sad_body {
-    background-image: url("pexels-ramaketu-709732.jpg");
+    background-image: url("sad.jpg")
 }
 
